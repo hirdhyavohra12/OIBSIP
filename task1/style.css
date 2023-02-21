@@ -1,0 +1,467 @@
+:root
+{
+    --maincolor:#c4c9cd;
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s;
+    outline: none;
+    text-transform:capitalize;
+    text-decoration: none;
+}
+
+html
+{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7%;
+    background-color: grey;
+    box-shadow: rgba(0, 0, 0,0.35) 0px 5px 15px;
+}
+
+.header h2
+{
+    font-size: 40px;
+}
+
+.header h2:hover
+{
+    background-color: var(--maincolor);
+    color: white;
+    padding: 1rem 2rem;
+    
+}
+.header #logo
+{
+    font-size: 3.5rem;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 52px;
+}
+
+.innerBanner a:hover
+{
+    background-color: black;
+    color: white;
+    padding: 1rem 3rem;
+}
+
+.ProductFeature h1:hover
+{
+    background-color: grey;
+    color: white;
+    /* padding: 1rem 3rem; */
+}
+
+.ProductFeature img:hover
+{
+    padding: 1rem 3rem;
+}
+.navbar a{
+    color: black;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.navbar a:hover
+{
+    background-color: var(--maincolor);
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+}
+
+.feature h1:hover
+{
+    background-color: white;
+
+}
+
+.feature-women h1:hover
+{
+    background-color: grey;
+    color: white;
+}
+
+
+
+.searchbox
+{
+    padding-left: 95px;
+    display: inline;
+    position: relative;
+    top: 110%;
+    width: 50%;
+    right: 2rem;
+    /* box-shadow: rgba(0, 0, 0,0.35) 0px 5px 15px; */
+    
+}
+
+.searchbox:hover
+{
+    background-color: var(--maincolor);
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 3rem;  
+}
+
+
+/* uses javascript* upto shop-content*/
+.shopping-cart
+{
+    position: absolute;
+    top: 110%;
+    width: 12rem;
+    right: 30rem;
+    left: 100%;
+}
+
+.shopping-box
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.shopping-box img
+{
+width: 200%;
+}
+
+.shop-content h3
+{
+    font-size: 1.7rem;
+    padding: 0.5rem;
+
+}
+
+.shop-content span
+{
+    /* margin: 0.5rem; */
+    font-size: 1.7rem;
+}
+
+.main-background
+{
+    background: url(imagess/main2.webp);
+    background-size: cover;
+    background-position: center;
+    margin-top: 6%;
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 300px;
+}
+
+.leftcontent
+{
+    flex: 1 1 45rem;
+}
+
+
+.rightSideContent p{
+    font-size: 1.7rem;
+}
+.rightSideContent h1
+{
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.leftInnerContent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.rightSideContent
+{
+    flex: 1 1 10rem;
+}
+
+.inner-main-content
+{
+    background: black;
+    padding: 2rem 2rem;
+    width: 250px;
+    display: inline-block;
+    border-radius: 20%;
+}
+
+
+.inner-main-content h1
+{
+    color: white;
+    padding: 2rem 2rem;
+    font-size: 3rem;
+}
+
+.inner-main-content p
+{
+    color: white;
+    font-size: 1.7rem;
+    padding: 1.5rem 4rem;
+}
+
+
+.inner-main-content span
+{
+    color: white;
+    font-size: 1.7rem;
+    margin-right: 1rem;
+}
+
+.shopnow-btn
+{
+    margin: 0rem 3rem;
+    display: block;
+    padding: 1rem 2rem;
+    background-color: white;
+    width: 60%;
+  
+    color: black;
+    font-size: 1.7rem;
+}
+
+.shopnow-btn:hover
+{
+    color: white;
+    background-color: grey;
+}
+
+
+.Poster
+{
+    padding: 3rem 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+
+.InsidePoster img
+{
+    background-size: cover;
+    height: 70vh;
+    width: 30vw;
+    background-repeat: no-repeat;
+}
+
+.InsidePoster
+{
+    flex: 1 1 45rem;
+}
+
+.InsidePoster h1
+{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.InsidePoster a
+{
+    padding: 1rem 1rem;
+    background: white;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 4rem;
+    border-radius: 15px;
+}
+
+.InsidePoster a:hover
+{
+    color: white;
+    background-color: black;
+    padding: 1rem 3rem;
+}
+
+.InsidePoster img:hover
+{
+    padding: 1rem 3rem;
+}
+.InsidePoster p
+{
+    font-size: 1.7rem;
+    padding: 2rem;
+}
+
+.ProductList
+{
+    padding: 3rem 7%;
+}
+
+.ProductList h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+.Products
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.ProductFeature
+{
+    flex: 1 1 30rem;
+}
+
+.Products .ProductFeature img
+{
+    background-size: cover;
+    background-repeat: no repeat;
+    height: 70vh;
+    width:100%
+}
+
+.ProductList h1:hover
+{
+    color: white;
+    background-color: grey;
+}
+
+.feature
+{
+    padding: 3rem 7%; 
+    background-color: grey;
+}
+
+.feature h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+.feature-women
+{
+    padding: 3rem 7%; 
+    /* background-color: grey; */
+}
+
+.feature-women h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.feature-product
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.feature-product .ProductFeature img
+{
+    background-size: cover;
+    background-repeat: no repeat;
+    height: 70vh;
+    width:100%
+}
+
+.footer-class
+{
+    padding: 40px 0;
+    background-color: grey;
+}
+
+.footer-class .social
+{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.footer-class .social a
+{
+    font-size: 34px;
+    color: inherit;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border-radius:40%;
+    margin: 0 10px;
+}
+
+.footer-class .social a :hover
+{
+    color: black;
+}
+
+.footer-class ul
+{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer-class ul li a
+{
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-class ul li
+{
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.footer-class ul li a:hover
+{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 50%;
+}
+.footer-class .copyright
+{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+
+}
